@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #000;
+  color: white;
+}
+.navbar {
+  display: flex;
+  margin: 12px;
+  padding: 21px;
+  /* justify-content: space-around; */
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.25);
+  box-shadow: 0-1px 25px -10px rgba(255, 255, 255, 0.5),
+    0 1px 25px -10px rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(40px);
+  height: 13vh;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+}
+.navbar div img {
+  height: 70px;
+  margin-left: -10px;
+}
+.JuVerse1 {
+  margin-right: 35rem;
+  font-size: 1.7rem;
+  font-family: IBM Plex Mono;
+}
+.navbar ul {
+  display: flex;
+  justify-content: center;
+}
+.navbar ul li {
+  list-style: none;
+  color: white;
+  margin: 0 19px;
+  padding: 4px 2px;
+  font-size: 1.5rem;
+  font-family: Inter;
+}
+.navbar ul li a {
+  text-decoration: none;
+color: white;
+  transition: all 0.4s ease-in-out;
+}
+.navbar ul li a:hover {
+    font-size: 1.7rem;
+    color: rgb(56, 54, 54);
+   
+}
+
