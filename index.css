@@ -55,4 +55,38 @@ color: white;
     color: rgb(56, 54, 54);
    
 }
+.future-verse {
+  display: block;
+  align-items: center;
+  text-align: center;
+  margin: 4vw 0;
+}
+.future-verse h1{
+  text-align: center;
+  align-items: center;
+  font-size: 2.5rem;
+  font-family: sans-serif;
+}
+.future-verse h2{
+  text-align: center;
+  font-size: 2.4rem;
+  font-family: sans-serif;
+  
+}
+.JUVERSE{
+  display: block;
+  align-items: center;
+  text-align: center;
+  /* margin: 4vw 0; */
+  font-size: 15rem;
+  color: #353434;
+  
+}
+
+
+
+
+
+
+
 
