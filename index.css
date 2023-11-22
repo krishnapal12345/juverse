@@ -104,6 +104,26 @@ color: white;
 
 }
 
+.image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-container img{
+  margin: 0 12px;
+  
+ 
+ }
+
+
+ 
+
+
+
+
+
+
+
 
 
 
