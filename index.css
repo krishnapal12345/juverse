@@ -47,13 +47,12 @@ body {
 }
 .navbar ul li a {
   text-decoration: none;
-color: white;
+  color: white;
   transition: all 0.4s ease-in-out;
 }
 .navbar ul li a:hover {
-    font-size: 1.7rem;
-    color: rgb(56, 54, 54);
-   
+  font-size: 1.7rem;
+  color: rgb(56, 54, 54);
 }
 .future-verse {
   display: block;
@@ -61,73 +60,188 @@ color: white;
   text-align: center;
   margin: 4vw 0;
 }
-.future-verse h1{
+.future-verse h1 {
   text-align: center;
   align-items: center;
   font-size: 2.5rem;
   font-family: sans-serif;
 }
-.future-verse h2{
+.future-verse h2 {
   text-align: center;
   font-size: 2.4rem;
   font-family: sans-serif;
-  
 }
-.JUVERSE{
-  display: block;
+.JUVERSE {
+  position: relative;
+  display: flex;
   align-items: center;
   text-align: center;
+  justify-content: center;
   /* margin: 4vw 0; */
   font-size: 15rem;
   color: #353434;
-  
 }
-.About-Us{
+/* .Verse{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  background: radial-gradient(circle at var(--x) var(--y), transparent 10%, rgba(0,0,0,0.95) 20%);
+} */
+
+.About-Us {
   /* display: block; */
   align-items: center;
   text-align: center;
   margin: 4vw 0;
 }
-.About-Us h3{
+.About-Us h3 {
   text-align: center;
   align-items: center;
   font-size: 7rem;
-  font-family:  sans-serif;
-  
-
+  font-family: sans-serif;
 }
-.About-Us p{
+.About-Us p {
   font-size: 2rem;
   text-align: center;
   margin: 4vw 0;
   font-family: monospace;
-
 }
 
-.image-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.image-container {
+  display: flex;
+  /* flex-direction: row-reverse; */
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
 }
-.image-container img{
-  margin: 0 12px;
-  
+.image-box {
+  position: relative;
+  margin: 0 10px;
+  /* height: 7%; */
+  width: 500px;
+  height: 25px;
+
  
- }
+}
+.image-box img{
+  width: 100%;
+  display: block;
+  margin: auto;
+}
 
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.content p {
+  font-family: monospace;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  text-align: center;
+}
+.image-content1{
+  width: 100%;
+  height: 51vh;
+  border: 2px solid black;
+  /* margin: auto; */
+  top: 0;
+  left: 0;
+  position:absolute;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  opacity: 0;
+  transition: all 0.6s ease-in-out; 
+}
+.image-content2{
+  width: 100%;
+  height: 51vh;
+  border: 2px solid black;
+  /* margin: auto; */
+  top: 0;
+  left: 0;
+  position:absolute;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  opacity: 0;
+  transition: all 0.6s ease-in-out; 
+}
+.image-content3{
+  width: 100%;
+  height: 51vh;
+  border: 2px solid black;
+  /* margin: auto; */
+  top: 0;
+  left: 0;
+  position:absolute;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  opacity: 0;
+  transition: all 0.6s ease-in-out; 
+}
+.image-content4{
+  width: 100%;
+  height: 51vh;
+  border: 2px solid black;
+  /* margin: auto; */
+  top: 0;
+  left: 0;
+  position:absolute;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  opacity: 0;
+  transition: all 0.6s ease-in-out; 
+}
+.image-content1:hover{
+  opacity: 1;
+  background-color: rgb(113, 113, 207);
+  border-radius: 10px;
+  border-color:  rgb(2, 32, 80);
+}
+.image-content2:hover{
+  opacity: 1;
+  background-color: rgb(226, 111, 111);
+  border-radius: 10px;
+  border-color: red;
+}
+.image-content3:hover{
+  opacity: 1;
+  background-color: rgb(133, 123, 123);
+  border-radius: 10px;
+  border-color: rgb(74, 72, 72);
+}
+.image-content4:hover{
+  opacity: 1;
+  background-color: rgb(118, 224, 118);
+  border-radius: 10px;
+  border-color: rgb(3, 69, 3);
+}
+.image-content1 h3{
+  font-size: 3.5rem;
+}
+.image-content2 h3{
+  font-size: 3.5rem;
+}
+.image-content3 h3{
+  font-size: 3.5rem;
+}
+.image-content4 h3{
+  font-size: 3.5rem;
+}
 
