@@ -135,6 +135,7 @@ body {
 }
 
 .content p {
+  margin: 27px 0;
   font-family: monospace;
   align-items: center;
   justify-content: center;
@@ -213,7 +214,7 @@ body {
   opacity: 1;
   background-color: rgb(113, 113, 207);
   border-radius: 10px;
-  border-color:  rgb(2, 32, 80);
+  border-color:  rgb(2, 28, 69);
 }
 .image-content2:hover{
   opacity: 1;
