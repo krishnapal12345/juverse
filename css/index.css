@@ -1,0 +1,603 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  scroll-padding: 7rem;
+}
+body {
+  background-color: #000;
+  color: white;
+}
+.navbar {
+  display: flex;
+  margin: 12px;
+  padding: 17px;
+  top: 8px;
+  left: 0;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.25);
+  box-shadow: 0-1px 25px -10px rgba(255, 255, 255, 0.5),
+    0 1px 25px -10px rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(40px);
+
+ 
+ 
+}
+.juverse{
+  display: block;
+}
+.juverse img {
+  height: 47px;
+  margin-left: 5px;
+  /* width: 99%; */
+}
+
+.JuVerse1 {
+  margin-right: 560px;
+  padding: 0 7px;
+  font-size: 25px;
+  font-family: IBM Plex Mono;
+}
+.navbar .navcontent {
+  display: flex;
+  justify-content: center;
+}
+.navbar .navcontent li {
+  list-style: none;
+  color: white;
+  margin: 0 19px;
+  padding: 4px 2px;
+  font-size: 1.5rem;
+  font-family: Inter;
+}
+.navbar .navcontent li a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.4s ease-in-out;
+}
+.navbar .navcontent li a:hover {
+  font-size: 1.7rem;
+  color: rgb(56, 54, 54);
+}
+.future-verse {
+  display: block;
+  align-items: center;
+  text-align: center;
+  margin: 4vw 0;
+}
+.future-verse h1 {
+  text-align: center;
+  align-items: center;
+  font-size: 2.5rem;
+  font-family: sans-serif;
+}
+
+.future-verse h2 {
+  text-align: center;
+  font-size: 2.4rem;
+  font-family: sans-serif;
+}
+.JUVERSE {
+  position: relative;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  /* margin: 4vw 0; */
+  font-size: 250px;
+  font-family: "Archivo Black", sans-serif;
+  color: #353434;
+}
+
+#About {
+  /* height: 100%; */
+  width: 100%;
+}
+
+.About-Us {
+  /* display: block; */
+  align-items: center;
+  text-align: center;
+  margin: 4vw 0;
+}
+.About-Us h3 {
+  text-align: center;
+  align-items: center;
+  font-size: 112px;
+  font-family: sans-serif;
+}
+.About-Us p {
+  font-size: 2rem;
+  text-align: center;
+  margin: 4vw 0;
+  font-family: monospace;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  /* flex-wrap: wrap; */
+}
+.image-box {
+  position: relative;
+  margin: 0 10px;
+  width: 500px;
+  /* height: 50px; */
+}
+.image-box img {
+  height: 51vh;
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+
+.content p {
+  margin: 27px 0;
+  font-family: monospace;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  text-align: center;
+}
+.image-content1 {
+  width: 100%;
+  height: 51vh;
+  border: 2px solid black;
+  /* margin: auto; */
+  top: 0;
+  left: 0;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  opacity: 0;
+  transition: all 0.6s ease-in-out;
+}
+.image-content2 {
+  width: 100%;
+  height: 51vh;
+  border: 2px solid black;
+  /* margin: auto; */
+  top: 0;
+  left: 0;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  opacity: 0;
+  transition: all 0.6s ease-in-out;
+}
+.image-content3 {
+  width: 100%;
+  height: 51vh;
+  border: 2px solid black;
+  /* margin: auto; */
+  top: 0;
+  left: 0;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  opacity: 0;
+  transition: all 0.6s ease-in-out;
+}
+.image-content4 {
+  width: 100%;
+  height: 51vh;
+  border: 2px solid black;
+  /* margin: auto; */
+  top: 0;
+  left: 0;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  opacity: 0;
+  transition: all 0.6s ease-in-out;
+}
+.image-content1:hover {
+  opacity: 1;
+  background-color: rgb(113, 113, 207);
+  border-radius: 10px;
+  border-color: rgb(2, 28, 69);
+}
+.image-content2:hover {
+  opacity: 1;
+  background-color: rgb(226, 111, 111);
+  border-radius: 10px;
+  border-color: red;
+}
+.image-content3:hover {
+  opacity: 1;
+  background-color: rgb(133, 123, 123);
+  border-radius: 10px;
+  border-color: rgb(74, 72, 72);
+}
+.image-content4:hover {
+  opacity: 1;
+  background-color: rgb(118, 224, 118);
+  border-radius: 10px;
+  border-color: rgb(3, 69, 3);
+}
+.image-content1 h3 {
+  font-size: 3.5rem;
+}
+.image-content2 h3 {
+  font-size: 3.5rem;
+}
+.image-content3 h3 {
+  font-size: 3.5rem;
+}
+.image-content4 h3 {
+  font-size: 3.5rem;
+}
+
+#Events {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+
+}
+#Events h1 {
+  font-size: 7rem;
+  font-family: sans-serif;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  position: relative;
+ 
+  margin-top: 400px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  /* flex: 25%; */
+  max-width: 25%;
+  padding: 0 4px;
+  margin-top: 100px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  object-fit: cover;
+}
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.Project-desc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150vh;
+  width: 100%;
+  margin: 25px 0;
+  /* margin: 39px 0; */
+}
+.Project-desc h2 {
+  font-size: 3.5rem;
+}
+
+.burger{
+  display: none;
+  position: absolute;
+  cursor: pointer;
+  right: 2%;
+  top: 4px;
+
+}
+.line{
+  width: 33px;
+  background-color: aliceblue;
+  height: 4px;
+  margin: 3px 3px;
+}
+
+@media only screen and (max-width: 1320px) {
+
+  .burger{
+    display: block;
+  }
+  .h-nav-resp{
+    height: 11px;
+    margin: 13px 0;
+  }
+  .v-class-resp{
+    opacity: 0;
+
+  }
+  .navbar {
+    flex-direction: column;
+    
+    max-width: 110%;
+    margin: 12px 0;
+    /* overflow: hidden; */
+    transition: all 0.7s ease-out;
+  }
+  .navbar .navcontent {
+    flex-direction: column;
+    max-width: 110%;
+    margin: 15px;
+  }
+  .juverse img {
+    height: 65px;
+    margin-right: 50px;
+  }
+
+  .JuVerse1 {
+    margin-top: -37px;
+    margin-right: -140px;
+    font-size: 13px;
+  }
+  .future-verse{
+   max-width: 100%;
+  }
+  .JUVERSE {
+   max-width: 100%;
+    font-size: 195px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .About-Us {
+    max-width: 110%;
+  }
+  .About-Us h3 {
+    font-size: 107px;
+  }
+  .About-Us p{
+    text-align: center;
+  }
+  .image-container{
+    max-width: 110%;
+  }
+  .image-box img {
+    height: 47vh;
+    width: 97%;
+  }
+  .image-content1 {
+    height: 47vh;
+  }
+  .image-content1 h3 {
+    font-size: 45px;
+    
+  }
+  .image-content2 {
+    height: 47vh;
+  }
+  .image-content3 {
+    height: 47vh;
+  }
+  .image-content4 {
+    height: 47vh;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .burger{
+    display: block;
+  }
+  .h-nav-resp{
+    height: 11px;
+    margin: 13px 0;
+  }
+  .v-class-resp{
+    opacity: 0;
+
+  }
+  .navbar {
+    flex-direction: column;
+    
+    /* max-width: 110%; */
+    margin: 12px 0;
+    /* overflow: hidden; */
+    transition: all 0.7s ease-out;
+  }
+  .navbar .navcontent {
+    flex-direction: column;
+    max-width: 100%;
+    margin: 15px;
+  }
+  .juverse img {
+    height: 65px;
+    margin-right: 50px;
+  }
+
+  .JuVerse1 {
+    margin-top: -37px;
+    margin-right: -140px;
+    font-size: 13px;
+  }
+  .future-verse{
+   max-width: 100%;
+  }
+  .JUVERSE {
+   max-width: 100%;
+    font-size: 125px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .About-Us {
+    max-width: 100%;
+  }
+  .About-Us h3 {
+    font-size: 90px;
+  }
+  .About-Us p{
+    text-align: center;
+    font-size: 35px;
+  }
+  .image-container{
+    max-width: 100%;
+    height: 100%;
+    margin:  50px 0;
+    flex-direction: column;
+  }
+  .image-box img {
+    height: 57vh;
+    width: 100%;
+  }
+  .image-content1 {
+    height: 57vh;
+  }
+  .image-content1 h3 {
+    font-size: 45px;
+    
+  }
+  .image-content2 {
+    height: 57vh;
+  }
+  .image-content3 {
+    height: 57vh;
+  }
+  .image-content4 {
+    height: 57vh;
+  }
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .burger{
+    display: block;
+  }
+  .h-nav-resp{
+    height: 11px;
+    margin: 13px 0;
+  }
+  .v-class-resp{
+    opacity: 0;
+
+  }
+  .navbar {
+    flex-direction: column;
+    
+    max-width: 100%;
+    margin: 12px 0;
+    /* overflow: hidden; */
+    transition: all 0.7s ease-out;
+  }
+  .navbar .navcontent {
+    flex-direction: column;
+    max-width: 100%;
+    margin: 15px;
+  }
+  .juverse img {
+    height: 65px;
+    margin-right: 50px;
+  }
+
+  .JuVerse1 {
+    margin-top: -37px;
+    margin-right: -140px;
+    font-size: 13px;
+  }
+  .future-verse{
+   max-width: 100%;
+   align-items: center;
+   justify-content: center;
+   
+  }
+  .future-verse h1{
+    font-size: 30px;
+   
+
+  }
+  .future-verse h2{
+    font-size: 23px;
+   
+
+  }
+  .JUVERSE {
+   max-width: 110%;
+    font-size: 70px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .About-Us {
+    max-width: 110%;
+  }
+  .About-Us h3 {
+    font-size: 70px;
+  }
+  .About-Us p{
+    text-align: center;
+    font-size: 23px;
+  }
+  .image-container{
+    max-width: 110%;
+    height: 100%;
+    margin:  50px 0;
+    flex-direction: column;
+  }
+  .image-box{
+    align-items: center;
+    justify-content: center;
+  }
+  .image-box img {
+    height: 37vh;
+    width: 90%;
+  }
+  .image-content1 {
+    height: 37vh;
+    width: 95%;
+    
+  }
+  .image-content1 h3 {
+    font-size: 20px;
+    
+  }
+  .image-content2 {
+    height: 37vh;
+    width: 95%;
+  }
+  .image-content3 {
+    height: 37vh;
+    width: 95%;
+  }
+  .image-content4 {
+    height: 37vh;
+    width: 95%;;
+  }
+}
+  
+  
+
