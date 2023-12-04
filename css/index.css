@@ -137,6 +137,10 @@ body {
   margin: auto;
 }
 
+.image-box{
+/* position: absolute; */
+}
+
 .content p {
   margin: 27px 0;
   font-family: monospace;
@@ -146,10 +150,10 @@ body {
   text-align: center;
 }
 .image-content1 {
+  
   width: 100%;
   height: 51vh;
   border: 2px solid black;
-  /* margin: auto; */
   top: 0;
   left: 0;
   position: absolute;
@@ -162,70 +166,182 @@ body {
   opacity: 0;
   transition: all 0.6s ease-in-out;
 }
-.image-content2 {
-  width: 100%;
-  height: 51vh;
-  border: 2px solid black;
-  /* margin: auto; */
-  top: 0;
-  left: 0;
-  position: absolute;
-  background: rgba(0, 0, 0, 0.6);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  flex-direction: column;
-  opacity: 0;
-  transition: all 0.6s ease-in-out;
-}
-.image-content3 {
-  width: 100%;
-  height: 51vh;
-  border: 2px solid black;
-  /* margin: auto; */
-  top: 0;
-  left: 0;
-  position: absolute;
-  background: rgba(0, 0, 0, 0.6);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  flex-direction: column;
-  opacity: 0;
-  transition: all 0.6s ease-in-out;
-}
-.image-content4 {
-  width: 100%;
-  height: 51vh;
-  border: 2px solid black;
-  /* margin: auto; */
-  top: 0;
-  left: 0;
-  position: absolute;
-  background: rgba(0, 0, 0, 0.6);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  flex-direction: column;
-  opacity: 0;
-  transition: all 0.6s ease-in-out;
-}
-.image-content1:hover {
-  opacity: 1;
-  background-color: rgb(113, 113, 207);
-  border-radius: 10px;
-  border-color: rgb(2, 28, 69);
-}
-.image-content2:hover {
+.image-box:hover .image-content1 {
   opacity: 1;
   background-color: rgb(226, 111, 111);
   border-radius: 10px;
   border-color: red;
 }
-.image-content3:hover {
+
+.image-content1:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('../Assests/network.png'); /* Replace with the path to your new image */
+  background-size: cover;
+  opacity: 0;
+  transition: opacity 0.6s ease-in-out;
+}
+
+.image-box:hover .image-content1:before {
+  opacity: 1;
+}
+
+
+
+
+.image-box {
+  position: relative;
+}
+
+.image-content2 {
+  width: 100%;
+  height: 51vh;
+  border: 2px solid black;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  opacity: 0;
+  transition: all 0.6s ease-in-out;
+}
+
+.image-box:hover .image-content2 {
+  opacity: 1;
+  background-color: rgb(226, 111, 111);
+  border-radius: 10px;
+  border-color: red;
+}
+
+.image-content2:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('../Assests/learn.png'); /* Replace with the path to your new image */
+  background-size: cover;
+  opacity: 0;
+  transition: opacity 0.6s ease-in-out;
+}
+
+.image-box:hover .image-content2:before {
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
+.image-content3 {
+  
+  width: 100%;
+  height: 51vh;
+  border: 2px solid black;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  opacity: 0;
+  transition: all 0.6s ease-in-out;
+}
+.image-box:hover .image-content3 {
+  opacity: 1;
+  background-color: rgb(226, 111, 111);
+  border-radius: 10px;
+  border-color: red;
+}
+
+.image-content3:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('../Assests/synergize.png'); /* Replace with the path to your new image */
+  background-size: cover;
+  opacity: 0;
+  transition: opacity 0.6s ease-in-out;
+}
+
+.image-box:hover .image-content3:before {
+  opacity: 1;
+}
+
+
+.image-content4 {
+  
+  width: 100%;
+  height: 51vh;
+  border: 2px solid black;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  opacity: 0;
+  transition: all 0.6s ease-in-out;
+}
+.image-box:hover .image-content4 {
+  opacity: 1;
+  background-color: rgb(226, 111, 111);
+  border-radius: 10px;
+  border-color: red;
+}
+
+.image-content4:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('../Assests/mentor.png'); /* Replace with the path to your new image */
+  background-size: cover;
+  opacity: 0;
+  transition: opacity 0.6s ease-in-out;
+}
+
+.image-box:hover .image-content4:before {
+  opacity: 1;
+}
+
+/* .image-content2:hover {
+  opacity: 1;
+  background-color: rgb(226, 111, 111);
+  border-radius: 10px;
+  border-color: red;
+
+} */
+
+/* 
+.image-content2:hover::after{
+  content: url('M:\programming\jecrc\JU VERSE\juverse\Assests\Screenshot (1).png');
+} */
+
+/* .image-content3:hover {
   opacity: 1;
   background-color: rgb(133, 123, 123);
   border-radius: 10px;
@@ -236,7 +352,7 @@ body {
   background-color: rgb(118, 224, 118);
   border-radius: 10px;
   border-color: rgb(3, 69, 3);
-}
+} */
 .image-content1 h3 {
   font-size: 3.5rem;
 }
