@@ -22,11 +22,8 @@ body {
   box-shadow: 0-1px 25px -10px rgba(255, 255, 255, 0.5),
     0 1px 25px -10px rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(40px);
-
- 
- 
 }
-.juverse{
+.juverse {
   display: block;
 }
 .juverse img {
@@ -137,8 +134,8 @@ body {
   margin: auto;
 }
 
-.image-box{
-/* position: absolute; */
+.image-box {
+  /* position: absolute; */
 }
 
 .content p {
@@ -150,7 +147,6 @@ body {
   text-align: center;
 }
 .image-content1 {
-  
   width: 100%;
   height: 51vh;
   border: 2px solid black;
@@ -180,7 +176,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background: url('../Assests/network.png'); /* Replace with the path to your new image */
+  background: url("../Assests/network.png"); /* Replace with the path to your new image */
   background-size: cover;
   opacity: 0;
   transition: opacity 0.6s ease-in-out;
@@ -189,9 +185,6 @@ body {
 .image-box:hover .image-content1:before {
   opacity: 1;
 }
-
-
-
 
 .image-box {
   position: relative;
@@ -228,7 +221,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background: url('../Assests/learn.png'); /* Replace with the path to your new image */
+  background: url("../Assests/learn.png"); /* Replace with the path to your new image */
   background-size: cover;
   opacity: 0;
   transition: opacity 0.6s ease-in-out;
@@ -238,15 +231,7 @@ body {
   opacity: 1;
 }
 
-
-
-
-
-
-
-
 .image-content3 {
-  
   width: 100%;
   height: 51vh;
   border: 2px solid black;
@@ -276,7 +261,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background: url('../Assests/synergize.png'); /* Replace with the path to your new image */
+  background: url("../Assests/synergize.png"); /* Replace with the path to your new image */
   background-size: cover;
   opacity: 0;
   transition: opacity 0.6s ease-in-out;
@@ -286,9 +271,7 @@ body {
   opacity: 1;
 }
 
-
 .image-content4 {
-  
   width: 100%;
   height: 51vh;
   border: 2px solid black;
@@ -318,7 +301,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background: url('../Assests/mentor.png'); /* Replace with the path to your new image */
+  background: url("../Assests/mentor.png"); /* Replace with the path to your new image */
   background-size: cover;
   opacity: 0;
   transition: opacity 0.6s ease-in-out;
@@ -372,7 +355,6 @@ body {
   justify-content: center;
   height: 100vh;
   width: 100%;
-
 }
 #Events h1 {
   font-size: 7rem;
@@ -383,7 +365,7 @@ body {
   flex-wrap: wrap;
   padding: 0 4px;
   position: relative;
- 
+
   margin-top: 400px;
 }
 
@@ -430,15 +412,14 @@ body {
   font-size: 3.5rem;
 }
 
-.burger{
+.burger {
   display: none;
   position: absolute;
   cursor: pointer;
   right: 2%;
   top: 4px;
-
 }
-.line{
+.line {
   width: 33px;
   background-color: aliceblue;
   height: 4px;
@@ -446,21 +427,19 @@ body {
 }
 
 @media only screen and (max-width: 1320px) {
-
-  .burger{
+  .burger {
     display: block;
   }
-  .h-nav-resp{
+  .h-nav-resp {
     height: 11px;
     margin: 13px 0;
   }
-  .v-class-resp{
+  .v-class-resp {
     opacity: 0;
-
   }
   .navbar {
     flex-direction: column;
-    
+
     max-width: 110%;
     margin: 12px 0;
     /* overflow: hidden; */
@@ -481,11 +460,11 @@ body {
     margin-right: -140px;
     font-size: 13px;
   }
-  .future-verse{
-   max-width: 100%;
+  .future-verse {
+    max-width: 100%;
   }
   .JUVERSE {
-   max-width: 100%;
+    max-width: 100%;
     font-size: 195px;
     align-items: center;
     text-align: center;
@@ -497,10 +476,10 @@ body {
   .About-Us h3 {
     font-size: 107px;
   }
-  .About-Us p{
+  .About-Us p {
     text-align: center;
   }
-  .image-container{
+  .image-container {
     max-width: 110%;
   }
   .image-box img {
@@ -512,7 +491,6 @@ body {
   }
   .image-content1 h3 {
     font-size: 45px;
-    
   }
   .image-content2 {
     height: 47vh;
@@ -526,20 +504,19 @@ body {
 }
 
 @media only screen and (max-width: 980px) {
-  .burger{
+  .burger {
     display: block;
   }
-  .h-nav-resp{
+  .h-nav-resp {
     height: 11px;
     margin: 13px 0;
   }
-  .v-class-resp{
+  .v-class-resp {
     opacity: 0;
-
   }
   .navbar {
     flex-direction: column;
-    
+
     /* max-width: 110%; */
     margin: 12px 0;
     /* overflow: hidden; */
@@ -560,11 +537,11 @@ body {
     margin-right: -140px;
     font-size: 13px;
   }
-  .future-verse{
-   max-width: 100%;
+  .future-verse {
+    max-width: 100%;
   }
   .JUVERSE {
-   max-width: 100%;
+    max-width: 100%;
     font-size: 125px;
     align-items: center;
     text-align: center;
@@ -576,14 +553,14 @@ body {
   .About-Us h3 {
     font-size: 90px;
   }
-  .About-Us p{
+  .About-Us p {
     text-align: center;
     font-size: 35px;
   }
-  .image-container{
+  .image-container {
     max-width: 100%;
     height: 100%;
-    margin:  50px 0;
+    margin: 50px 0;
     flex-direction: column;
   }
   .image-box img {
@@ -595,7 +572,6 @@ body {
   }
   .image-content1 h3 {
     font-size: 45px;
-    
   }
   .image-content2 {
     height: 57vh;
@@ -608,23 +584,20 @@ body {
   }
 }
 
-
-
 @media only screen and (max-width: 600px) {
-  .burger{
+  .burger {
     display: block;
   }
-  .h-nav-resp{
+  .h-nav-resp {
     height: 11px;
     margin: 13px 0;
   }
-  .v-class-resp{
+  .v-class-resp {
     opacity: 0;
-
   }
   .navbar {
     flex-direction: column;
-    
+
     max-width: 100%;
     margin: 12px 0;
     /* overflow: hidden; */
@@ -645,24 +618,19 @@ body {
     margin-right: -140px;
     font-size: 13px;
   }
-  .future-verse{
-   max-width: 100%;
-   align-items: center;
-   justify-content: center;
-   
+  .future-verse {
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
   }
-  .future-verse h1{
+  .future-verse h1 {
     font-size: 30px;
-   
-
   }
-  .future-verse h2{
+  .future-verse h2 {
     font-size: 23px;
-   
-
   }
   .JUVERSE {
-   max-width: 110%;
+    max-width: 110%;
     font-size: 70px;
     align-items: center;
     text-align: center;
@@ -674,17 +642,17 @@ body {
   .About-Us h3 {
     font-size: 70px;
   }
-  .About-Us p{
+  .About-Us p {
     text-align: center;
     font-size: 23px;
   }
-  .image-container{
+  .image-container {
     max-width: 110%;
     height: 100%;
-    margin:  50px 0;
+    margin: 50px 0;
     flex-direction: column;
   }
-  .image-box{
+  .image-box {
     align-items: center;
     justify-content: center;
   }
@@ -695,11 +663,9 @@ body {
   .image-content1 {
     height: 37vh;
     width: 95%;
-    
   }
   .image-content1 h3 {
     font-size: 20px;
-    
   }
   .image-content2 {
     height: 37vh;
@@ -711,9 +677,6 @@ body {
   }
   .image-content4 {
     height: 37vh;
-    width: 95%;;
+    width: 95%;
   }
 }
-  
-  
-
